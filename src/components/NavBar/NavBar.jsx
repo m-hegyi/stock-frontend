@@ -3,7 +3,7 @@ import React, { Component} from 'react';
 class NavBar extends Component {
     render() {
         return (
-            <div>Navbar</div>
+            <div id={this.props.id}>Navbar</div>
         );
     }
 }

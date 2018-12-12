@@ -1,0 +1,27 @@
+#main {
+    display: grid;
+    grid-template-areas:    "nav nav nav"
+                            "stock graph graph"
+                            "stock graph graph"
+                            "stock graph graph"
+                            "stat stat stat";
+
+}
+
+#navbar {
+    grid-area: nav;
+    height: 40px;
+    background-color: #eee;
+}
+
+#stock {
+    grid-area: stock;
+}
+
+#graph {
+    grid-area: graph;
+}
+
+#statistics {
+    grid-area: stat;
+}

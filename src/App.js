@@ -1,22 +1,10 @@
-import React, { Component } from 'react';
+import React from 'react';
 import './App.css';
 
-import NavBar from  './components/NavBar/NavBar';
-import Stock from './components/Stock/Stock';
-import Graph from './components/Graph/Graph';
-import Statistics from './components/Statistics/Statistics';
+import Main from './screens/Main/Main';
 
-class App extends Component {
-  render() {
-    return (
-      <div>
-        <NavBar />
-        <Stock />
-        <Graph />
-        <Statistics />
-      </div>
-    );
-  }
-}
+const App = () => (
+  <Main />
+);
 
 export default App;

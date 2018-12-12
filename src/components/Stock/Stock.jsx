@@ -7,7 +7,7 @@ import StopLoss from '../StopLoss/StopLoss';
 export default class Stock extends Component {
     render() {
         return (
-            <div>
+            <div id={this.props.id}>
                 <Acquisition />
                 <TakeProfit />
                 <StopLoss />
